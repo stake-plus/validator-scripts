@@ -1,0 +1,34 @@
+{
+  "networks": [
+    {
+      "name": "polkadot",
+      "endpoint": "wss://rpc.dotters.network/polkadot",
+      "destinationAddress": "destaddress",
+      "thresholdAmount": 2,
+      "payoutAccount": "seed",
+      "stashAccounts": [
+        "validatorstash"
+      ]
+    },
+    {
+      "name": "kusama",
+      "endpoint": "wss://rpc.dotters.network/kusama",
+      "destinationAddress": "destaddress",
+      "thresholdAmount": 1,
+      "payoutAccount": "seed",
+      "stashAccounts": [
+        "validatorstash"
+      ]
+    }
+  ],
+  "wallets": [
+    {
+      "network": "polkadot",
+      "seedPhrase": "seed"
+    },
+    {
+      "network": "kusama",
+      "seedPhrase": "seed"
+    }
+  ]
+}
